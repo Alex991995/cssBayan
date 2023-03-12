@@ -6,10 +6,23 @@ body{
     padding: 0;
     margin: 0;
 }
+.container{
+    background-color: rgba(206, 215, 109, 0.2);
+}
+.accordion{  
+    margin: 0 auto;
+    width: 16em;
 
-
-
-
+}
+.accordion__label{
+    /* display: block; */
+}
+.accordion__text{
+    width: 14em;
+}
+.accordion__input{
+    appearance: none;
+}
 .accordion__img{
-    width: 18rem;
+    width: 14em;
 }
